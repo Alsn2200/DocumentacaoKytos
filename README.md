@@ -30,4 +30,12 @@
  Porém conexões diretas dedicam uma unica conexão pra cada host, e isso para a aplicação se torna maléfico.
  7. Criar conexão via VLAN: 
           7.1 No terminal do mininet insira:   
+          h1 ip addr flush dev h1-eth0.100   
+          h1 ip addr add 192.168.100.1/24 dev h1-eth0.100
+          h2 ip addr flush dev h2-eth0.100
+          h2 ip addr add 192.168.100.2/24 dev h2-eth0.100
+          h1 ping 192.168.100.2
+          
+          7.2 Geralmente as VLANS são configuradas entre 100 e 286.
+          
           
