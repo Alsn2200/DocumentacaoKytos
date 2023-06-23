@@ -37,6 +37,7 @@
           h1 ping 192.168.100.2
           
           7.2 Geralmente as VLANS são configuradas entre 100 e 286.
-              use napps
+8. Criar vlan:
+          8.1 : oii             
           
           
