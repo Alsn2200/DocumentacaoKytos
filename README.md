@@ -38,6 +38,6 @@
           
           7.2 Geralmente as VLANS são configuradas entre 100 e 286.
 8. Criar vlan:
-                       dfidfdfdf        
-          
+                  
+sssssssssssss          
           
