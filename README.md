@@ -15,7 +15,7 @@
           
  4. Deletar o banco de dados da Topologia:    
          Num novo terminal insira:   
-         sudo docker exec -it mongo1 mongo rs0:PRIMARY>   
+         sudo docker exec -it mongo1 mongo
          use napps     
          db.dropDatabase();   
          
