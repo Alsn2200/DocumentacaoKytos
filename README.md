@@ -7,6 +7,7 @@
           export MONGO_USERNAME=mymongouser   
           export MONGO_PASSWORD=mymongopass    
           docker-compose up -d
+    
           kytosd -f --database mongodb
 
           export MONGO_DBNAME=napps
