@@ -61,6 +61,21 @@
           
           7.2 Geralmente as VLANS são configuradas entre 100 e 286.
 11. Criar vlan:
-                  
-sssssssssssss          
+
+
+12. Para executar tests do diretorio kytos-end-to-end-tests:
+         1. Acesse o diretorio kytos-end-to-end-tests
+         2. verifique qual documento está executando atualmente:
+             2.1 cat docker-compose.yml
+         3. após isso, se for necessario alterar faça:
+             3.1 gedit docker-compose.yml
+             3.2 altere a linha 16 com o test desejado para execução
+             3.3 Salvar arquivo
+         4. Execute o codigo:
+             4.1 docker-compose up -d
+         5. Verifique os logs do teste:
+             5.1 docker logs kytos-end-to-end-tests_kytos_1
+
+      
+    
           
