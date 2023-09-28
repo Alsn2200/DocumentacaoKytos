@@ -1,4 +1,8 @@
           Documentacão Kytos
+
+ **Para abrir o Pycharm: entre no diretorio pelo terminal e utilize: 
+           cd bin
+           ./pycharm.sh**         
    
  1. Instalação das dependencias para o kytos, mininet, mongodb  
  
