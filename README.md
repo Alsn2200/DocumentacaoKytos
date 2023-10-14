@@ -1,9 +1,9 @@
                             
  **Para abrir o Pycharm: entre no diretorio pelo terminal e utilize:** 
            
-           '''python
+           
            cd bin
-           ./pycharm.sh  '''      
+           ./pycharm.sh      
    
  1. Instalação das dependencias para o kytos, mininet, mongodb  
  
@@ -108,6 +108,12 @@
     
          4. Execute o codigo:
              4.1 docker-compose up -d
+
+   ```python
+      produto = Produto.get.all()
+      print(produto)
+   ```
+   
 
     
          5. Verifique os logs do teste:
