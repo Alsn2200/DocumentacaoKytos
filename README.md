@@ -108,13 +108,6 @@
     
          4. Execute o codigo:
              4.1 docker-compose up -d
-
-   ```python
-      produto = Produto.get.all()
-      print(produto)
-   ```
-   
-
     
          5. Verifique os logs do teste:
              5.1 docker logs kytos-end-to-end-tests_kytos_1
